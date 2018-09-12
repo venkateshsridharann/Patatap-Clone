@@ -177,7 +177,7 @@ var text = new PointText({
     fillColor: 'yellow',
     fontFamily: 'Arial Black',
     // fontWeight: 'bold',
-    fontSize: 30
+    fontSize: 50
 });
 
 
@@ -209,7 +209,7 @@ function onFrame(event)
 	for (var i = 0; i < circles.length; i++) 
 	{
 		circles[i].fillColor.hue +=1;
-		circles[i].scale(.9);
+		circles[i].scale(.991);
 		if(circles[i].area < 1)
 		{
       		circles[i].remove(); // remove the circle from the canvas
